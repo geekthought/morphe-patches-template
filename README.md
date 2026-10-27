@@ -15,7 +15,7 @@ Click here to add these patches to Morphe: https://morphe.software/add-source?gi
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.0-dev.2](https://github.com/geekthought/morphe-patches-template/releases/tag/v1.0.0-dev.2)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
+> **[v1.0.0-dev.3](https://github.com/geekthought/morphe-patches-template/releases/tag/v1.0.0-dev.3)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
 <details open>
 <summary>📦 XYZ app&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
@@ -42,7 +42,7 @@ Click here to add these patches to Morphe: https://morphe.software/add-source?gi
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
-| [Firefox - Absolute AMOLED Black](#firefox-absolute-amoled-black) | Force Firefox dark/private Acorn surfaces to #000000 without changing text or icon roles. Experimental across versions. |  |
+| [Firefox - Absolute AMOLED Black](#firefox-absolute-amoled-black) | V3-equivalent Acorn background changes, retaining text and icon colors. Experimental for newer Firefox versions. |  |
 
 </details>
 
