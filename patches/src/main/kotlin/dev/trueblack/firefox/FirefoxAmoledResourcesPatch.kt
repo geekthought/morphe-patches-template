@@ -28,7 +28,7 @@ internal val FIREFOX_COMPATIBILITY = Compatibility(
  */
 private val surfaceRoles = setOf(
     "background", "surface", "surface_bright", "surface_dim", "surface_inverse",
-    "surface_variant", "surface_container", "surface_container_high",
+    "surface_variant", "inverse_surface", "surface_container", "surface_container_high",
     "surface_container_highest", "surface_container_low", "surface_container_lowest",
     "surface_container_selected", "primary_container", "secondary_container",
     "tertiary_container", "error_container", "information_container",
