@@ -128,8 +128,9 @@ val firefoxAmoledBytecodePatch = bytecodePatch(
                 val insn = instructions[index]
                 index < call.index &&
                 insn.opcode == Opcode.MOVE_WIDE_FROM16 &&
-                (insn as? TwoRegisterInstruction)?.registerA == destination &&
-                insn.registerB == source
+                (insn as? TwoRegisterInstruction)?.let {
+                    it.registerA == destination && it.registerB == source
+                } == true
             }
             if (matches.size != 1) {
                 throw PatchException("AMOLED: missing " + label + " move into v" + destination)
