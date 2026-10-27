@@ -1,5 +1,7 @@
 package dev.trueblack.firefox
 
+import app.morphe.patcher.patch.ApkFileType
+import app.morphe.patcher.patch.AppTarget
 import app.morphe.patcher.patch.Compatibility
 import app.morphe.patcher.patch.PatchException
 import app.morphe.patcher.patch.resourcePatch
@@ -11,7 +13,12 @@ private const val BLACK_HEX = "#000000"
 internal val FIREFOX_COMPATIBILITY = Compatibility(
     name = "Firefox Android",
     packageName = "org.mozilla.firefox",
+    apkFileType = ApkFileType.XAPK,
     appIconColor = 0xFF7139,
+    targets = listOf(
+        AppTarget(version = "158.0", isExperimental = true),
+        AppTarget(version = null, isExperimental = true),
+    ),
 )
 
 /**
