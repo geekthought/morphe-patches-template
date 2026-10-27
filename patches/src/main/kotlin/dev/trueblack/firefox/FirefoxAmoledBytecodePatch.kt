@@ -60,12 +60,26 @@ val firefoxAmoledBytecodePatch = bytecodePatch(
                     ?: return@mapIndexedNotNull null
                 Callsite(index, range.startRegister, range.registerCount)
             }
-            if (calls.size != 1) {
-                throw PatchException("AMOLED: expected one $targetMethod in $methodName, found ${calls.size}")
-            }
-            val call = calls.single()
-            if (call.count != expectedWords) {
-                throw PatchException("AMOLED: $methodName ABI changed (${call.count} != $expectedWords)")
+            // Firefox builds both dark and light AcornColors instances in <clinit>.
+            // The dark palette is constructed first, starting at register v0.
+            // Other callsites must still be unique; fail rather than recoloring text/icons.
+            val candidates = calls.filter { it.count == expectedWords }
+            val call = if (
+                methodName == "<clinit>" && targetClass == ACORN_COLORS &&
+                targetMethod == "<init>"
+            ) {
+                candidates.singleOrNull { it.start == 0 }
+                    ?: throw PatchException(
+                        "AMOLED: dark AcornColors constructor not uniquely found; " +
+                        "candidates=${calls.map { "v${it.start}/${it.count}" }}"
+                    )
+            } else {
+                candidates.singleOrNull()
+                    ?: throw PatchException(
+                        "AMOLED: expected one $targetMethod in $methodName with " +
+                        "$expectedWords registers; found ${candidates.size} matches " +
+                        "(${calls.size} total)"
+                    )
             }
             return method to call
         }
