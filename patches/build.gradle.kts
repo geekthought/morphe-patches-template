@@ -1,14 +1,13 @@
-group = "app.template"
+group = "dev.geekthought.firefoxamoled"
 
 patches {
-    // TODO: Update this section with your project details.
     about {
-        name = "UserXYZ Patches"
-        description = "Patches for apps I like"
-        source = "git@github.com:UserXYZ/morphe-patches.git"
-        author = "Awesome dev"
+        name = "Firefox Absolute AMOLED Patches"
+        description = "Experimental Pure Black patches for Firefox for Android"
+        source = "https://github.com/geekthought/morphe-patches-template"
+        author = "geekthought"
         contact = "na"
-        website = "na"
+        website = "https://github.com/geekthought/morphe-patches-template"
         license = "GPLv3"
     }
 }
