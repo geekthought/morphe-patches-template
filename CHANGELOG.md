@@ -1,3 +1,9 @@
+## [1.0.0-dev.2](https://github.com/geekthought/morphe-patches-template/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2026-10-27)
+
+### 🐛 Bug Fixes
+
+* disambiguate dark AcornColors constructor when Firefox builds two palettes ([14bf6a7](https://github.com/geekthought/morphe-patches-template/commit/14bf6a728995e923056e97d58455c80d82eed084))
+
 ## 1.0.0-dev.1 (2026-10-27)
 
 ### 🐛 Bug Fixes

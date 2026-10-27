@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-10-27T20:07:41",
-  "description": "## 1.0.0-dev.1 (2026-10-27)\n\n### 🐛 Bug Fixes\n\n* declare Firefox XAPK compatibility and experimental versions ([ad7c9cd](https://github.com/geekthought/morphe-patches-template/commit/ad7c9cd425a31ec9fecd56ad070f4afafb224bd7))\n\n### ✨ New Features\n\n* add Firefox Acorn AMOLED bytecode patch ([3be09a6](https://github.com/geekthought/morphe-patches-template/commit/3be09a6032625105e831b3827fb5bc5312649104))\n* add Firefox AMOLED surface resource patch ([4b7331c](https://github.com/geekthought/morphe-patches-template/commit/4b7331c3375445e7453ee91fcfb45077494a9d43))",
-  "download_url": "https://github.com/geekthought/morphe-patches-template/releases/download/v1.0.0-dev.1/patches-1.0.0-dev.1.mpp",
+  "created_at": "2026-10-27T20:22:31",
+  "description": "## [1.0.0-dev.2](https://github.com/geekthought/morphe-patches-template/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2026-10-27)\n\n### 🐛 Bug Fixes\n\n* disambiguate dark AcornColors constructor when Firefox builds two palettes ([14bf6a7](https://github.com/geekthought/morphe-patches-template/commit/14bf6a728995e923056e97d58455c80d82eed084))",
+  "download_url": "https://github.com/geekthought/morphe-patches-template/releases/download/v1.0.0-dev.2/patches-1.0.0-dev.2.mpp",
   "signature_download_url": "",
-  "version": "1.0.0-dev.1"
+  "version": "1.0.0-dev.2"
 }
