@@ -1,5 +1,128 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "0.0.0",
-  "patches": []
+  "version": "1.0.0-dev.4",
+  "patches": [
+    {
+      "name": "Example Patch",
+      "description": "Example patch to start with.",
+      "default": true,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "com.example.app",
+          "name": "XYZ app",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#FF0045",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "2.0.0",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "1.0.2",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "FairEmail - Absolute AMOLED Black",
+      "description": "Pure #000000 black for black-theme toolbars, cards, dialogs, menus, drawers, bars and separators; leave text/icons/accents unchanged. Requires selecting a Black theme in FairEmail.",
+      "default": false,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "eu.faircode.email",
+          "name": "FairEmail",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#212121",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "1.2337a",
+              "versionCodes": null,
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Firefox - Absolute AMOLED Black",
+      "description": "V3-equivalent Acorn background changes, retaining text and icon colors. Experimental for newer Firefox versions.",
+      "default": false,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "org.mozilla.firefox",
+          "name": "Firefox Android",
+          "description": null,
+          "apkFileType": "XAPK",
+          "appIconColor": "#FF7139",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "158.0",
+              "versionCodes": null,
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": null,
+              "versionCodes": null,
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Solid Explorer - Absolute AMOLED Black",
+      "description": "Solid Explorer 3.6.2: pure-black dark-mode containers, toolbars, menus, drawers, cards and divider resources. Preserves text and icon colors; experimental for Compose runtime surfaces.",
+      "default": false,
+      "category": null,
+      "compatiblePackages": [
+        {
+          "packageName": "pl.solidexplorer2",
+          "name": "Solid Explorer",
+          "description": null,
+          "apkFileType": "XAPK",
+          "appIconColor": "#111111",
+          "signatures": null,
+          "formFactor": "MOBILE",
+          "targets": [
+            {
+              "version": "3.6.2",
+              "versionCodes": null,
+              "isExperimental": true,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    }
+  ]
 }
