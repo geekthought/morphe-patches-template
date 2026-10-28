@@ -18,7 +18,7 @@ import org.w3c.dom.Element
 private val fairEmailCompatibility = Compatibility(
     name = "FairEmail",
     packageName = "eu.faircode.email",
-    appIconColor = 0xFF212121,
+    appIconColor = 0x212121,
     targets = listOf(
         AppTarget(version = "1.2337a", isExperimental = true),
     )
