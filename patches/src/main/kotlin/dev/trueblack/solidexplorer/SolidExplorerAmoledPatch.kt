@@ -22,7 +22,7 @@ private val solidExplorerCompat = Compatibility(
     name = "Solid Explorer",
     packageName = "pl.solidexplorer2",
     apkFileType = ApkFileType.XAPK,
-    appIconColor = 0xFF111111,
+    appIconColor = 0x111111,
     targets = listOf(AppTarget(version = "3.6.2", isExperimental = true)),
 )
 
