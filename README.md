@@ -15,7 +15,7 @@ Click here to add these patches to Morphe: https://morphe.software/add-source?gi
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.0-dev.3](https://github.com/geekthought/morphe-patches-template/releases/tag/v1.0.0-dev.3)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
+> **[v1.0.0-dev.4](https://github.com/geekthought/morphe-patches-template/releases/tag/v1.0.0-dev.4)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
 <details open>
 <summary>📦 XYZ app&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
@@ -32,6 +32,21 @@ Click here to add these patches to Morphe: https://morphe.software/add-source?gi
 </details>
 
 <details open>
+<summary>📦 FairEmail&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 🧪&nbsp;1.2337a |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [FairEmail - Absolute AMOLED Black](#fairemail-absolute-amoled-black) | Pure #000000 black for black-theme toolbars, cards, dialogs, menus, drawers, bars and separators; leave text/icons/accents unchanged. Requires selecting a Black theme in FairEmail. |  |
+
+</details>
+
+<details open>
 <summary>📦 Firefox Android&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
@@ -43,6 +58,21 @@ Click here to add these patches to Morphe: https://morphe.software/add-source?gi
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
 | [Firefox - Absolute AMOLED Black](#firefox-absolute-amoled-black) | V3-equivalent Acorn background changes, retaining text and icon colors. Experimental for newer Firefox versions. |  |
+
+</details>
+
+<details open>
+<summary>📦 Solid Explorer&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+**🎯 Supported versions:**
+
+| 🧪&nbsp;3.6.2 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Solid Explorer - Absolute AMOLED Black](#solid-explorer-absolute-amoled-black) | Solid Explorer 3.6.2: pure-black dark-mode containers, toolbars, menus, drawers, cards and divider resources. Preserves text and icon colors; experimental for Compose runtime surfaces. |  |
 
 </details>
 

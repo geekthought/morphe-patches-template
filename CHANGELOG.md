@@ -1,3 +1,15 @@
+## [1.0.0-dev.4](https://github.com/geekthought/morphe-patches-template/compare/v1.0.0-dev.3...v1.0.0-dev.4) (2026-10-28)
+
+### 🐛 Bug Fixes
+
+* use valid Kotlin Int icon colors for Morphe compatibility ([2767642](https://github.com/geekthought/morphe-patches-template/commit/27676428e2e54e96930a2dcc67752e02d5611775))
+* use valid Kotlin Int icon colors for Morphe compatibility ([1d22acb](https://github.com/geekthought/morphe-patches-template/commit/1d22acbdc7d35c876ae0882aaaa14b0e8da48762))
+
+### ✨ New Features
+
+* add FairEmail 1.2337a absolute AMOLED black patch ([f959466](https://github.com/geekthought/morphe-patches-template/commit/f9594666f1f3bfef149ec9707cbf2d7b18a480df))
+* add Solid Explorer 3.6.2 AMOLED black resource patch ([90e529a](https://github.com/geekthought/morphe-patches-template/commit/90e529ad4eb2b6a7d309a9fda81aa1d0df422894))
+
 ## [1.0.0-dev.3](https://github.com/geekthought/morphe-patches-template/compare/v1.0.0-dev.2...v1.0.0-dev.3) (2026-10-27)
 
 ### 🐛 Bug Fixes
